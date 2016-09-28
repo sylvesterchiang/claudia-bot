@@ -1,0 +1,19 @@
+{
+  "name": "claudia-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "claudia create --version dev --region us-east-1 --api-module bot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "claudia-bot-builder": "^2.0.0",
+    "huh": "^1.1.4"
+  },
+  "devDependencies": {
+    "claudia": "^2.0.2"
+  },
+  "description": ""
+}
